@@ -33,6 +33,6 @@ jobs:
 
       - name: Deploy
         run: |-
-          gsutil cp dist/* gs://$GCS_BUCKET/
+          gsutil cp -r dist/* gs://$GCS_BUCKET/
         env:
           GCS_BUCKET: ${{ secrets.GCS_BUCKET }}   

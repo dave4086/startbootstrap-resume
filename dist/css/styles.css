@@ -265,6 +265,18 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
   color:#6c757d;
 }
 
+.fa-li:hover{
+  color:#974a2d;
+}
+
+.fa-check:hover{
+  color:#974a2d;
+}
+
+#MindsetHover:hover{
+  color:#974a2d;
+  font-weight: bold;
+}
 
 pre,
 code,

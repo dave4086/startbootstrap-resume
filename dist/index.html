@@ -78,6 +78,12 @@
                                 <li>
                                 Deployed an open source Cloudwatch Metric exporter to give visibility into thousands of AWS objects across 10 accounts. Metrics were exported by Prometheus and we used Grafana to create AWS inventory dashboards.    
                                 </li>
+                                <li>
+                                Implemented self-hosted Github Actions runners using the Actions Runner Controller project. These runners also use Github webhook driven scaling, provisioning new runners automatically based on workflow runs.
+                                </li>
+                                <li>
+                                Re-imagined our Helm Release process for common tooling on our clusters by moving to a pull driven GitOps model using FluxCD. The Flux helm controller allowed us to automate upgrades, ensure drift was automatically reconciled, and easily configure per-release notifications/alerts. 
+                                </li>
                                 </p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">July 2021 - Present</span></div>
